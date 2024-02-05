@@ -1,0 +1,438 @@
+@font-face {
+  font-family: "clashdisplay-regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/clashdisplay-regular.woff2") format("woff2"), url("../fonts/clashdisplay-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "satoshi-regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/satoshi-regular.woff2") format("woff2"), url("../fonts/satoshi-regular.woff") format("woff");
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1440px;
+  height: 121px;
+  font-family: "satoshi-regular";
+  color: white;
+}
+.header__banners {
+  width: 1440px;
+  height: 41px;
+  background-color: #2A254B;
+  display: flex;
+  align-items: center;
+  font-family: "satoshi-regular";
+  color: white;
+}
+.header__delivery {
+  width: 417px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  font-family: "satoshi-regular";
+  font-size: 14px;
+  margin-left: 516px;
+}
+.header__close {
+  margin-right: 16px;
+}
+.header__nav {
+  width: 1280px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.header__avion {
+  margin-left: 0;
+  margin-right: 0;
+}
+.header__main-links {
+  margin-left: 152px;
+  display: flex;
+  align-items: center;
+}
+.header__actions {
+  width: 96px;
+  height: 16px;
+  display: flex;
+  margin-right: 0;
+}
+.header hr {
+  width: 1386px;
+  height: 1px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header__main-links {
+  width: 760px;
+  height: 22px;
+  display: flex;
+  -moz-tab-size: 16px;
+    -o-tab-size: 16px;
+       tab-size: 16px;
+}
+.header a {
+  text-decoration: none;
+  color: #726E8D;
+}
+
+.product {
+  width: 1440px;
+  height: 759px;
+  display: flex;
+  align-items: center;
+}
+.product__img {
+  margin-left: 0;
+  margin-right: 0;
+}
+.product__wrapper {
+  width: 602px;
+  height: 657px;
+  margin-right: 55px;
+}
+.product__info {
+  width: 281px;
+  height: 89px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.product__name {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  font-family: "clashdisplay-regular";
+  font-size: 36px;
+}
+.product__price {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  font-family: "satoshi-regular";
+  font-size: 24px;
+}
+.product__description {
+  width: 522px;
+  height: 188px;
+  margin-top: 54px;
+  color: #505977;
+}
+.product__description-logo {
+  font-family: "clashdisplay-regular";
+  color: #2A254B;
+}
+.product__description-text {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  font-family: "satoshi-regular";
+  line-height: 22px;
+}
+.product__description-list {
+  font-family: "satoshi-regular";
+  line-height: 22px;
+}
+.product__dimensions {
+  width: 241px;
+  height: 99px;
+  margin-top: 50px;
+  margin-left: 40px;
+  color: #2A254B;
+}
+.product__dimensions-logo {
+  font-family: "clashdisplay-regular";
+}
+.product__dimensions-metrics {
+  width: 241px;
+  height: 51px;
+  margin-top: 28px;
+  display: flex;
+}
+.product__dimensions-height {
+  max-width: 44px;
+  height: 51px;
+  margin-left: 0;
+}
+.product__dimensions-width {
+  max-width: 44px;
+  height: 51px;
+}
+.product__dimensions-depth {
+  max-width: 44px;
+  height: 51px;
+  margin-right: 0;
+}
+.product__dimensions-letters {
+  font-family: "clashdisplay-regular";
+  font-size: 14px;
+  line-height: 17px;
+}
+.product__dimensions-numbers {
+  margin-top: 12px;
+  font-family: "satoshi-regular";
+  color: #505977;
+  line-height: 22px;
+}
+.product__bue {
+  width: 512px;
+  height: 56px;
+  margin-top: 49px;
+  display: flex;
+}
+.product__amount {
+  width: 209px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  font-family: "clashdisplay-regular";
+  color: #2A254B;
+}
+.product__amount-stepper {
+  width: 122px;
+  height: 46px;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  color: #2A254B;
+  font-family: "satoshi-regular";
+  background-color: #F9F9F9;
+}
+.product__amount-signs {
+  color: #CAC6DA;
+  border: none;
+  background-color: #F9F9F9;
+}
+.product__cart {
+  width: 143px;
+  height: 58px;
+  margin-right: 0;
+  background-color: #2A254B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: "satoshi-regular";
+}
+
+.listing {
+  width: 1440px;
+  height: 761px;
+  font-family: "clashdisplay-regular";
+  color: #2A254B;
+}
+.listing__logo {
+  padding-left: 90px;
+  padding-top: 80px;
+  font-size: 32px;
+}
+.listing__cards {
+  width: 1300px;
+  height: 462px;
+  margin-top: 33px;
+  margin-left: 80px;
+  margin-bottom: 35px;
+  display: flex;
+}
+.listing__name {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.listing__price {
+  font-family: "satoshi-regular";
+  font-size: 18px;
+}
+.listing__button {
+  width: 170px;
+  height: 56px;
+  background-color: #F9F9F9;
+  border: none;
+  margin-left: 625px;
+  font-family: "satoshi-regular";
+}
+
+.features {
+  width: 1440px;
+  height: 355px;
+  display: grid;
+  grid-template-columns: 86px 270px 59px 266px 58px 235px 91px 265px 110px;
+  grid-template-rows: 145px 124px auto;
+  align-items: center;
+  color: #2A254B;
+  font-family: "clashdisplay-regular";
+}
+.features__logo {
+  width: 366px;
+  height: 34px;
+  grid-column: 1/10;
+  font-size: 24px;
+}
+.features__block1 {
+  grid-column: 2/3;
+}
+.features__block2 {
+  grid-column: 4/5;
+}
+.features__block3 {
+  grid-column: 6/7;
+}
+.features__block4 {
+  grid-column: 8/9;
+}
+.features__block-logo {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.features__text {
+  font-family: "satoshi-regular";
+  line-height: 24px;
+}
+
+.email {
+  width: 1440px;
+  height: 481px;
+  background-color: #F9F9F9;
+  padding-top: 52px;
+}
+.email__container {
+  width: 1273px;
+  height: 364px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  font-family: "satoshi-regular";
+}
+.email__logo {
+  padding-top: 68px;
+  font-family: "clashdisplay-regular";
+  font-size: 36px;
+}
+.email__text {
+  width: 470px;
+  height: 48px;
+  margin-top: 16px;
+  line-height: 24px;
+}
+.email__input {
+  width: 472px;
+  height: 56px;
+  display: flex;
+  margin-top: 72px;
+}
+.email__e {
+  width: 354px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  opacity: 0.2;
+}
+.email__sign-up {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.footer {
+  width: 1440px;
+  height: 350px;
+  background-color: #2A254B;
+  display: grid;
+  grid-template-columns: 80px 152px 65px 289px 170px 175px 109px 84px 135px 105px 85px auto;
+  grid-template-rows: auto 1px 55px;
+}
+.footer__address {
+  margin-top: 53px;
+  color: white;
+  grid-column: 2/3;
+}
+.footer__avian {
+  margin-bottom: 4px;
+  width: 87px;
+  height: 50px;
+  background-image: url(../img/Home/Avion.png);
+  background-repeat: no-repeat;
+}
+.footer__logo {
+  height: 20px;
+  font-family: "clashdisplay-regular";
+}
+.footer__text {
+  height: 19px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: "satoshi-regular";
+}
+.footer__social-container {
+  margin-top: 53px;
+  width: 289px;
+  height: 66px;
+  grid-column: 4/5;
+}
+.footer__social-links {
+  width: 289px;
+  height: 24px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-text {
+  margin-left: 12px;
+  color: white;
+  font-family: "clashdisplay-regular";
+}
+.footer img {
+  width: 24px;
+  height: 24px;
+}
+.footer__menu {
+  margin-top: 53px;
+  color: white;
+  grid-column: 6/7;
+}
+.footer__categories {
+  margin-top: 53px;
+  color: white;
+  grid-column: 8/9;
+}
+.footer__our-company {
+  margin-top: 53px;
+  color: white;
+  grid-column: 10/11;
+}
+.footer hr {
+  width: 1277px;
+  height: 1px;
+  border: none;
+  grid-column: 2/11;
+  background-color: #4E4D93;
+}
+.footer__copyright {
+  width: 164px;
+  height: 19px;
+  margin-left: 80px;
+  margin-top: 16px;
+  font-family: "satoshi-regular";
+  font-size: 14px;
+  color: white;
+  grid-row: 3/4;
+}/*# sourceMappingURL=Product Listing Style.css.map */

@@ -1,0 +1,457 @@
+@import 'vars';
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// шапка
+.header{
+    width: 1440px;
+    height: 121px;
+    font-family: 'satoshi-regular';
+    color: white;
+    &__banners{
+        width: 1440px;
+        height: 41px;
+        background-color: $dark-primary;
+        display: flex;
+        align-items: center;
+        font-family: 'satoshi-regular';
+        color: white;
+    }
+    &__delivery{
+        width: 417px;
+        height: 19px;
+        display: flex;
+        align-items: center;
+        font-family: 'satoshi-regular';
+        font-size: 14px;
+        margin-left: 516px;
+    }
+    &__close{
+        margin-right: 16px;
+    }
+
+
+    &__nav{
+        width: 1280px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    &__avion{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    &__main-links{
+        margin-left: 152px;
+        display: flex;
+        align-items: center;
+    }
+    &__actions{
+        width: 96px;
+        height: 16px;
+        display: flex;
+        margin-right: 0;
+    }
+    
+
+    hr{
+        width: 1386px;
+        height: 1px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    &__main-links{
+        width: 760px;
+        height: 22px;
+        display: flex;
+        tab-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: #726E8D;
+    }
+}
+
+// продукт
+.product{
+    width: 1440px;
+    height: 759px;
+    display: flex;
+    align-items: center;
+    &__img{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    &__wrapper{
+        width: 602px;
+        height: 657px;
+        margin-right: 55px;
+    }
+    &__info{
+        width: 281px;
+        height: 89px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    &__name{
+        height: 44px;
+        display: flex;
+        align-items: center;
+        font-family: 'clashdisplay-regular';
+        font-size: 36px;
+    }
+    &__price{
+        height: 32px;
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+        font-family: 'satoshi-regular';
+        font-size: 24px;
+    }
+
+    &__description{
+        width: 522px;
+        height: 188px;
+        margin-top: 54px;
+        color: #505977;
+    }
+    &__description-logo{
+        font-family: 'clashdisplay-regular';
+        color: #2A254B;
+    }
+    &__description-text{
+        margin-top: 16px;
+        margin-bottom: 20px;
+        font-family: 'satoshi-regular';
+        line-height: 22px;
+    }
+    &__description-list{
+        font-family: 'satoshi-regular';
+        line-height: 22px;
+    }
+
+    &__dimensions{
+        width: 241px;
+        height: 99px;
+        margin-top: 50px;
+        margin-left: 40px;
+        color: #2A254B;
+    }
+    &__dimensions-logo{
+        font-family: 'clashdisplay-regular';
+    }
+    &__dimensions-metrics{
+        width: 241px;
+        height: 51px;
+        margin-top: 28px;
+        display: flex;
+    }
+    &__dimensions-height{
+        max-width: 44px;
+        height: 51px;
+        margin-left: 0;
+    }
+    &__dimensions-width{
+        max-width: 44px;
+        height: 51px;
+    }
+    &__dimensions-depth{
+        max-width: 44px;
+        height: 51px;
+        margin-right: 0;
+    }
+    &__dimensions-letters{
+        font-family: 'clashdisplay-regular';
+        font-size: 14px;
+        line-height: 17px;
+    }
+    &__dimensions-numbers{
+        margin-top: 12px;
+        font-family: 'satoshi-regular';
+        color: #505977;
+        line-height: 22px;
+    }
+
+    &__bue{
+        width: 512px;
+        height: 56px;
+        margin-top: 49px;
+        display: flex;
+    }
+    &__amount{
+        width: 209px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        font-family: 'clashdisplay-regular';
+        color: #2A254B;
+    }
+    &__amount-stepper{
+        width: 122px;
+        height: 46px;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        color: $dark-primary;
+        font-family: 'satoshi-regular';
+        background-color: $light-grey;
+    }
+    &__amount-signs{
+        color: $border-dark;
+        border: none;
+        background-color: $light-grey;
+    }
+    &__cart{
+        width: 143px;
+        height: 58px;
+        margin-right: 0;
+        background-color: $dark-primary;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        font-family: 'satoshi-regular';
+    }
+}
+
+// перечисление
+.listing{
+    width: 1440px;
+    height: 761px;
+    font-family: 'clashdisplay-regular';
+    color: #2A254B;
+    &__logo{
+        padding-left: 90px;
+        padding-top: 80px;
+        font-size: 32px;
+    }
+
+
+    &__cards{
+        width: 1300px;
+        height: 462px;
+        margin-top: 33px;
+        margin-left: 80px;
+        margin-bottom: 35px;
+        display: flex;
+    }
+    &__name{
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    &__price{
+        font-family: 'satoshi-regular';
+        font-size: 18px;
+    }
+
+
+    &__button{
+        width: 170px;
+        height: 56px;
+        background-color: $light-grey;
+        border: none;
+        margin-left: 625px;
+        font-family: 'satoshi-regular';
+    }
+}
+
+// особенности
+.features{
+    width: 1440px;
+    height: 355px;
+    display: grid;
+    grid-template-columns: 86px 270px 59px 266px 58px 235px 91px 265px 110px;
+    grid-template-rows: 145px 124px auto;
+    align-items: center;
+    color: $dark-primary;
+    font-family: 'clashdisplay-regular';
+    &__logo{
+        width: 366px;
+        height: 34px;
+        grid-column: 1/10;
+        font-size: 24px;
+    }
+
+
+    &__block1{
+        grid-column: 2/3;
+    }
+    &__block2{
+        grid-column: 4/5;
+    }
+    &__block3{
+        grid-column: 6/7;
+    }
+    &__block4{
+        grid-column: 8/9;
+    }
+    &__block-logo{
+        margin-top: 16px;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    &__text{
+        font-family: 'satoshi-regular';
+        line-height: 24px;
+    }
+}
+
+// почта
+.email{
+    width: 1440px;
+    height: 481px;
+    background-color: $light-grey;
+    padding-top: 52px;
+    &__container{
+        width: 1273px;
+        height: 364px;
+        background-color: white;
+        align-items: center;
+        text-align: center;
+        font-family: 'satoshi-regular';
+    }
+    &__logo{
+        padding-top: 68px;
+        font-family: 'clashdisplay-regular';
+        font-size: 36px;
+    }
+    &__text{
+        width: 470px;   
+        height: 48px;
+        margin-top: 16px;
+        line-height: 24px;
+    }
+    &__input{
+        width: 472px;
+        height: 56px;
+        display: flex;
+        margin-top: 72px;
+    }
+    &__e{
+        width: 354px;
+        height: 56px;
+        background-color: $light-grey;
+        color: $dark-primary;
+        display: flex;
+        align-items: center;
+        padding-left: 32px;
+        opacity: 0.20;
+    }
+    &__sign-up{
+        width: 118px;
+        height: 56px;
+        background-color: $dark-primary;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+}
+
+// подвал
+.footer{
+    width: 1440px;
+    height: 350px;
+    background-color: $dark-primary;
+    display: grid;
+    grid-template-columns: 80px 152px 65px 289px 170px 175px 109px 84px 135px 105px 85px auto;
+    grid-template-rows: auto 1px 55px;
+    &__address{
+        margin-top: 53px;
+        color: white;
+        grid-column: 2/3;
+    }
+    &__avian{
+        margin-bottom: 4px;
+        width: 87px;
+        height: 50px;
+        background-image: url(../img/Home/Avion.png);
+        background-repeat: no-repeat;
+    }
+    &__logo{
+        height: 20px;
+        font-family: 'clashdisplay-regular';
+    }
+    &__text{
+        height: 19px;
+        margin-top: 12px;
+        font-size: 14px;
+        font-family: 'satoshi-regular';
+    }
+
+    &__social-container{
+        margin-top: 53px;
+        width: 289px;
+        height: 66px;
+        grid-column: 4/5;
+    }
+    &__social-links{
+        width: 289px;
+        height: 24px;
+        margin-top: 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social-text{
+        margin-left: 12px;
+        color: white;
+        font-family: 'clashdisplay-regular';
+    }
+    img{
+        width: 24px;
+        height: 24px;
+    }
+
+    &__menu{
+        margin-top: 53px;
+        color: white;
+        grid-column: 6/7;
+    }
+
+    &__categories{
+        margin-top: 53px;
+        color: white;
+        grid-column: 8/9;
+    }
+
+
+    &__our-company{
+        margin-top: 53px;
+        color: white;
+        grid-column: 10/11;
+    }
+
+
+    hr{
+        width: 1277px;
+        height: 1px;
+        border: none;
+        grid-column: 2/11;
+        background-color: $primary;
+    }
+
+
+    &__copyright{
+        width: 164px;
+        height: 19px;
+        margin-left: 80px;
+        margin-top: 16px;
+        font-family: 'satoshi-regular'; 
+        font-size: 14px;
+        color: white;
+        grid-row: 3/4;
+    }
+}

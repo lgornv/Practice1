@@ -1,0 +1,21 @@
+// цвета
+$dark-primary: #2A254B;
+$light-grey: #F9F9F9;
+$primary: #4E4D93;
+$border-dark: #CAC6DA;
+$border-grey: #EBE8F4;
+
+// шрифты
+@font-face {
+    font-family: 'clashdisplay-regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/clashdisplay-regular.woff2') format('woff2'), url('../fonts/clashdisplay-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'satoshi-regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/satoshi-regular.woff2') format('woff2'), url('../fonts/satoshi-regular.woff') format('woff');
+}
